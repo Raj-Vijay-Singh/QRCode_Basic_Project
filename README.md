@@ -47,3 +47,4 @@ Execute **main_pyqrcode.py** to generate QR code with the PyQRCode Library.
   - Install using the commands:
     - `pip install pyqrcode, pypng` (for main_pyqrcode.py)
     - `pip install qrcode[pil]` (for main_qrcode.py)
+- In the folder where the script is being run, there needs to be a folder named "QR_Codes" where the images will be saved.
