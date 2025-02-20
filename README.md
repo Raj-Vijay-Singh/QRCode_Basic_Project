@@ -26,7 +26,11 @@ QRCode is a better and more customisable approach to generating QR Codes.
 - Lacks SVG support.
 - A little slower than PyQRCode.
 
+# Why Use Time Module?
+I used time module to generate a unique name for each file. I did that by adding the timestamp of the file's creation time at the end of the file name.
+This avoids any naming conflicts that might have risen. 
+
 # How To Run?
 Execute **main_qrcode.py** to generate QR code with the QRCode Library.
 
-Execute **main_pyqrcode.py** to generate QR code with the PYQRCode Library.
+Execute **main_pyqrcode.py** to generate QR code with the PyQRCode Library.
