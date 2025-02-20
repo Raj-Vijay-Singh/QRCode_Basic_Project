@@ -34,3 +34,10 @@ This avoids any naming conflicts that might have risen.
 Execute **main_qrcode.py** to generate QR code with the QRCode Library.
 
 Execute **main_pyqrcode.py** to generate QR code with the PyQRCode Library.
+
+## Requirements To Run
+- Requires Python installed.
+- Run in a virtual environment with the needed libraries (PyQRCode (with PyPNG), QRCode or both) installed.
+  - Install using the commands:
+    - `pip install pyqrcode, pypng` (for main_pyqrcode.py)
+    - `pip install qrcode[pil]` (for main_qrcode.py)
