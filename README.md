@@ -1,11 +1,11 @@
 This project is made by Raj Vijay Singh, pursuing his bachelor's degree in B. Tech AI & DS, 4th Semester from World College of Technology & Management in Fahrukhnagar.
 
 # Algorithm:
-- Initialise a `user_choice` variable that stores if the program should run or not.
-- Create function to generate QR code which asks user for data input.
+- Initialise a `user_choice` variable, with the value "y", that stores if the program should continue to run or not.
+- Create function to generate QR code which asks user for data input and saves the QR Code with a timestamped file name.
 - Run the function in a loop.
 - At the end of each iteration, ask user input — if they want to generate another QR code (user_choice = "y") or exit (user_choice = "n")
-- If user_choice = "n", exit. Otherwise, continue the loop.
+- If user_choice = "n", exit. If user_choice = "y", continue loop. Otherwise, ask for input again.
 
 This project utilises two different libraries to generate QR codes.
 # Using PyQRCode Library
