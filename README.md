@@ -1,7 +1,13 @@
 This project is made by Raj Vijay Singh, pursuing his bachelor's degree in B. Tech AI & DS, 4th Semester from World College of Technology & Management in Fahrukhnagar.
 
-This project utilises two different libraries to generate QR does.
+# Algorithm:
+- Initialise a `user_choice` variable that stores if the program should run or not.
+- Create function to generate QR code which asks user for data input.
+- Run the function in a loop.
+- At the end of each iteration, ask user input — if they want to generate another QR code (user_choice = "y") or exit (user_choice = "n")
+- If user_choice = "n", exit. Otherwise, continue the loop.
 
+This project utilises two different libraries to generate QR codes.
 # Using PyQRCode Library
 PyQRCode is a more lightweight and basic approach. It is entirely Python based. 
 
